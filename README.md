@@ -4,5 +4,4 @@
 
 
 Shift_JIS環境向けにShift_JISの matlab(拡張子:m) スクリプトファイルを用意しました．
-
 必要であれば kadai_mtlb_sjis フォルダ内のファイルを参照してください．
