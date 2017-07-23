@@ -1,16 +1,7 @@
-(参考)Matlab入門  
-http://www.ns.kogakuin.ac.jp/~ct13050/johogaku/2-2.matlab_getstart.pdf
-
-例えば，このようにしてレポートを作成することが可能です．  
-https://github.com/mackhasegawa/lecture_image_processing/blob/master/kadai1.md
+原画像は「NEKO.jpg」を用いる．  
+![原画像](https://github.com/tainak/lecture_image_processing/blob/master/org_img/NEKO.jpg)
+「NEKO.jpg」の詳細に関しては<https://www.pakutaso.com/20170402118post-11340.html>を参照してください．
 
 
-フリー素材
-- https://www.pakutaso.com/ 
-- フリー素材アイドル「MIKA☆RIKA」 http://mika-rika-free.jp/
-
-
-
-
-
-
+Shift_JIS環境向けにShift_JISの matlab(拡張子:m) スクリプトファイルを用意しました．  
+必要であれば kadai_mtlb_sjis フォルダ内のファイルを参照してください．
