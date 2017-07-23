@@ -1,19 +1,19 @@
-% èª²é¡Œï¼’ã€€éšŽèª¿æ•°ã¨ç–‘ä¼¼è¼ªéƒ­
-% ï¼’éšŽèª¿ï¼Œï¼”éšŽèª¿ï¼Œï¼˜éšŽèª¿ã®ç”»åƒã‚’ç”Ÿæˆã›ã‚ˆï¼Ž
+% ‰Û‘è‚Q@ŠK’²”‚Æ‹^Ž——ÖŠs
+% ‚QŠK’²C‚SŠK’²C‚WŠK’²‚Ì‰æ‘œ‚ð¶¬‚¹‚æD
 
-clear; % å¤‰æ•°ã®ã‚ªãƒ¼ãƒ«ã‚¯ãƒªã‚¢
+clear; % •Ï”‚ÌƒI[ƒ‹ƒNƒŠƒA
 
-ORG=imread('org_img/NEKO.jpg'); % åŽŸç”»åƒã®å…¥åŠ›
+ORG=imread('org_img/NEKO.jpg'); % Œ´‰æ‘œ‚Ì“ü—Í
 ORG = rgb2gray(ORG); colormap(gray); colorbar;
-imagesc(ORG); axis image; % ç”»åƒã®è¡¨ç¤º
-pause; % ä¸€æ™‚åœæ­¢
+imagesc(ORG); axis image; % ‰æ‘œ‚Ì•\Ž¦
+pause; % ˆêŽž’âŽ~
 
-% ï¼’éšŽèª¿ç”»åƒã®ç”Ÿæˆ
+% ‚QŠK’²‰æ‘œ‚Ì¶¬
 IMG = ORG>128;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 pause;
 
-% ï¼”éšŽèª¿ç”»åƒã®ç”Ÿæˆ
+% ‚SŠK’²‰æ‘œ‚Ì¶¬
 IMG0 = ORG>64;
 IMG1 = ORG>128;
 IMG2 = ORG>192;
@@ -21,7 +21,7 @@ IMG = IMG0 + IMG1 + IMG2;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 pause;
 
-% 8éšŽèª¿ç”»åƒã®ç”Ÿæˆ
+% 8ŠK’²‰æ‘œ‚Ì¶¬
 IMG0 = ORG>32;
 IMG1 = ORG>64;
 IMG2 = ORG>96;

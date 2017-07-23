@@ -1,18 +1,12 @@
-% ‰Û‘è‚S@‰æ‘œ‚ÌƒqƒXƒgƒOƒ‰ƒ€
-% ‰æ‘f‚Ì”Z“xƒqƒXƒgƒOƒ‰ƒ€‚ð¶¬‚¹‚æD
-% ‰º‹L‚ÍƒTƒ“ƒvƒ‹ƒvƒƒOƒ‰ƒ€‚Å‚ ‚éD
-% ‰Û‘èì¬‚É‚ ‚½‚Á‚Ä‚ÍuLennavˆÈŠO‚Ì‰æ‘œ‚ð—p‚¢‚æD
+% èª²é¡Œï¼”ã€€ç”»åƒã®ãƒ’ã‚¹ãƒˆã‚°ãƒ©ãƒ 
+% ç”»ç´ ã®æ¿ƒåº¦ãƒ’ã‚¹ãƒˆã‚°ãƒ©ãƒ ã‚’ç”Ÿæˆã›ã‚ˆï¼Ž
 
-clear; % •Ï”‚ÌƒI[ƒ‹ƒNƒŠƒA
+clear; % å¤‰æ•°ã®ã‚ªãƒ¼ãƒ«ã‚¯ãƒªã‚¢
 
-ORG=imread('Lenna.png'); % Œ´‰æ‘œ‚Ì“ü—Í
-ORG=rgb2gray(ORG); % ƒJƒ‰[‰æ‘œ‚ð”’•”Z’W‰æ‘œ‚Ö•ÏŠ·
+ORG=imread('org_img/NEKO.jpg'); % åŽŸç”»åƒã®å…¥åŠ›
+ORG=rgb2gray(ORG); % ã‚«ãƒ©ãƒ¼ç”»åƒã‚’ç™½é»’æ¿ƒæ·¡ç”»åƒã¸å¤‰æ›
 imagesc(ORG); colormap(gray); colorbar;
 pause;
 
-imhist(ORG); % ƒqƒXƒgƒOƒ‰ƒ€‚Ì•\Ž¦
-
-
-
-
-
+imhist(ORG); % ãƒ’ã‚¹ãƒˆã‚°ãƒ©ãƒ ã®è¡¨ç¤º
+pause;
