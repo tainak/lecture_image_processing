@@ -26,7 +26,7 @@ imagesc(IMG); colormap(gray); colorbar;
 IMG = ORG > 96; % 輝度値が96以上の画素を1，その他を0に変換  
 imagesc(IMG); colormap(gray); colorbar;  
 
-輝度値が96以上の画素を1，その他を0に変換した結果を図2に示す．  
+輝度値が96以上の画素を1，その他を0に変換した結果を図3に示す．  
 
 ![図3 輝度値が96以上の画素を1，その他を0](https://github.com/tainak/lecture_image_processing/blob/master/repo_img/kadai3_2.png)  
 図3 輝度値が96以上の画素を1，その他を0  
@@ -36,7 +36,7 @@ imagesc(IMG); colormap(gray); colorbar;
 IMG = ORG > 128; % 輝度値が128以上の画素を1，その他を0に変換  
 imagesc(IMG); colormap(gray); colorbar;  
 
-輝度値が128以上の画素を1，その他を0に変換した結果を図2に示す．  
+輝度値が128以上の画素を1，その他を0に変換した結果を図4に示す．  
 
 ![図4 輝度値が128以上の画素を1，その他を0](https://github.com/tainak/lecture_image_processing/blob/master/repo_img/kadai3_3.png)  
 図4 輝度値が128以上の画素を1，その他を0  
@@ -46,7 +46,7 @@ imagesc(IMG); colormap(gray); colorbar;
 IMG = ORG > 160; % 輝度値が160以上の画素を1，その他を0に変換  
 imagesc(IMG); colormap(gray); colorbar;  
 
-輝度値が160以上の画素を1，その他を0に変換した結果を図2に示す．  
+輝度値が160以上の画素を1，その他を0に変換した結果を図5に示す．  
 
 ![図5 輝度値が160以上の画素を1，その他を0に変換](https://github.com/tainak/lecture_image_processing/blob/master/repo_img/kadai3_4.png)  
 図5 輝度値が160以上の画素を1，その他を0に変換  
