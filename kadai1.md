@@ -11,7 +11,7 @@ imagesc(ORG); axis image; % 画像の表示
 ![図1 原画像](https://github.com/tainak/lecture_image_processing/blob/master/repo_img/kadai1_0.png)  
 図1 原画像  
 
-元画像を1/2サンプリングするには，画像を1/2倍に縮小した後，2倍に拡大すればよい．  
+原画像を1/2サンプリングするには，画像を1/2倍に縮小した後，2倍に拡大すればよい．  
 なお，拡大する際には，単純補間するために「box」オプションを設定する．  
 
 IMG = imresize(ORG,0.5); % 画像の縮小  
