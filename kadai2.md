@@ -17,7 +17,6 @@ imagesc(ORG); axis image; % 画像の表示  
 そのため，0から255の間で任意の閾値を複数設定することで階調数を増減することができる．
 
 下は閾値128で2階調化を行ったものである．  
-128未満は白で表現される．  
 
 IMG = ORG>128;  
 imagesc(IMG); colormap(gray); colorbar;  axis image;  
