@@ -34,7 +34,7 @@ imagesc(IMG); colormap(gray); colorbar; % 画像の表示
 ![図4 メディアンフィルタによる雑音除去](https://github.com/tainak/lecture_image_processing/blob/master/repo_img/kadai9_3.png)  
 図4 メディアンフィルタによる雑音除去  
 
-次に，図4のメディアンフィルタによって雑音の除去された画像にフィルタを適用する．結果を図5に示す．  
+次に，図4のメディアンフィルタによって雑音の除去された画像に先鋭化フィルタを適用する．結果を図5に示す．  
 
 f=[0,-1,0;-1,5,-1;0,-1,0]; % フィルタの設計  
 IMG = filter2(f,IMG,'same'); % フィルタの適用  
