@@ -50,3 +50,6 @@ imagesc(IMG); colormap(gray); colorbar;
 
 ![図5 輝度値が160以上の画素を1，その他を0に変換](https://github.com/tainak/lecture_image_processing/blob/master/repo_img/kadai3_4.png)  
 図5 輝度値が160以上の画素を1，その他を0に変換  
+
+これらの結果から,図1の白黒濃淡画像の背景(被写体以外)は輝度値が64以上であることが言える．　　
+また，図1の白黒濃淡画像には輝度値が160以上の画素があまりないことがわかる．  
