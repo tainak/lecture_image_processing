@@ -57,5 +57,5 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 ![図4 8階調化](https://github.com/tainak/lecture_image_processing/blob/master/repo_img/kadai2_3.png)  
 図4 8階調化  
 
-これらの結果から，階調が増えるにつれ被写体と背景の輪郭が滑らかに表現されるということが言える．  
-また階調が増えることで，被写体の認知，周辺環境(背景)の認知が行いやすくなった．  
+これらの結果から，階調が増えるにつれ被写体と背景の輪郭が滑らかに表現され奥行きが増すということが言える．  
+また階調が増えることで，被写体の認知，周辺環境(背景)の認知が行いやすくなった．   
