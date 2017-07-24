@@ -29,7 +29,7 @@ imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 ダイナミックレンジを拡大した白黒濃淡画像を図3に示す  
 
 ![図3 ダイナミックレンジを拡大した白黒濃淡画像](https://github.com/tainak/lecture_image_processing/blob/master/repo_img/kadai7_2.png)  
-図1 白黒濃淡画像  
+図3 ダイナミックレンジを拡大した白黒濃淡画像  
 
 ORG = uint8(ORG); % この行について考察せよ  
 imhist(ORG); % 濃度ヒストグラムを生成、表示  
