@@ -19,7 +19,7 @@ imagesc(IMG); colormap(gray); colorbar; % 画像の表示
 128による二値化の結果を図2に示す．  
 
 ![図2 128による二値化](https://github.com/tainak/lecture_image_processing/blob/master/repo_img/kadai6_1.png)  
-図3 128による二値化  
+図2 128による二値化  
 
 次にディザ法による二値化を行う．  
 ディザ法とはディザマトリックスの閾値と比較して，その閾値との大小関係で出力画像の濃淡を決定する方法である．  
